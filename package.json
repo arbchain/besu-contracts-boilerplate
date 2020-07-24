@@ -1,0 +1,28 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "Contract boiler plate for Besu application",
+  "main": "mirror-config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --timeout 15000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arbchain/besu-contracts-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arbchain/besu-contracts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/arbchain/besu-contracts-boilerplate#readme",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "mocha": "^8.0.1",
+    "web3": "^1.2.9",
+    "web3-besu": "^0.9.1"
+  }
+}
