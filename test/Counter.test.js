@@ -1,7 +1,7 @@
 const Web3 = require("web3");
 const EEAClient = require("web3-besu");
 const assert = require("assert");
-const ContractAbi = require("../build/Counter.json");
+const ContractAbi = require("../build/Counter_abi.json");
 const ContractReceipt = require("../build/Counter_receipt.json");
 const { orion, besu } = require("../wallet/keys");
 const { networks } = require("../mirror-config");
