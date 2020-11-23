@@ -7,7 +7,7 @@ module.exports = {
   networks: {
 
     node1: {
-      host: 'http://testnet2.arbchain.xyz',
+      host: 'http://testnet.besu.consensolabs.com',
       port: 20000,
       publicKey: "A1aVtMxLCUHmBVHXoZzzBgPbW/wj5axDpW9X8l91SGo=",
       chainId: 2018,
@@ -34,7 +34,7 @@ module.exports = {
       group: 2
     },
     node1_onchain : {
-      host: 'http://testnet2.arbchain.xyz',
+      host: 'http://testnet.arbchain.xyz',
       port: 20000,
       publicKey: "A1aVtMxLCUHmBVHXoZzzBgPbW/wj5axDpW9X8l91SGo=",
       chainId: 2018,

@@ -13,5 +13,5 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm install -g mirror-besu
-      - run: mirror compile && mirror test --network node1_onchain
-      - run: mirror test --network node1_onchain
+      - run: mirror compile && mirror test --network node1_onchain --onchain-privacy
+      - run: mirror test --network node1_onchain --onchain-privacy
